@@ -19,6 +19,7 @@ Depends:
     rush
 Imports:
     bbotk,
+    catboost (>= 1.2.5),
     checkmate,
     data.table,
     e1071,
@@ -51,7 +52,8 @@ Remotes:
     mlr-org/mlr3mbo@adbo,
     mlr-org/mlr3learners@mlr3automl,
     mlr-org/mlr3extralearners@mlr3automl,
-    mlr-org/mlr3pipelines
+    mlr-org/mlr3pipelines,
+    catboost/catboost/R-package
 Config/testthat/edition: 3
 Encoding: UTF-8
 NeedsCompilation: no
